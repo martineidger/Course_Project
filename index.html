@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-main.css">
+    <link rel="stylesheet" href="foot-head-style.css">
+    <link rel="shortcut icon" href="sourses/Component 5.png" type="image/png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Monoton&display=swap');
+    </style>
+    <title>Food'n'Chill</title>
+</head>
+
+<body>
+    <a name="home"></a>
+    <div class="head-down"></div>
+    <header>
+        <div class="big-head">
+            <a href="index.html" class="link-main"><img src="sourses/Component 5.png" alt="" class="logo"></a>
+
+            <div class="h-info">
+                <div class="social">
+                    <a href="https://telegram.org/?ysclid=lh7fr00fk8170943303">
+                        <img src="sourses/icons8-телеграм-50.png" alt="telegram" width="30px" class="tg">
+                    </a>
+                    <a href="https://ru-ru.facebook.com/">
+                        <img src="sourses/icons8-facebook-30.png" alt="" class="fb">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="sourses/icons8-instagram-50.png" alt="" width="30px" class="inst">
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <img src="sourses/icons8-youtube-49.png" alt="" width="30px" class="yt">
+                    </a>
+                    <a href="https://vk.com">
+                        <img src="sourses/icons8-vk-в-круге-50.png" alt="" width="30px" class="vk">
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li> <a href="korners.html"> Корнеры</a></li>
+                    <li> <a href="index.html#games">Игры</a></li>
+                    <li> <a href="index.html#events">Мероприятия</a> </li>
+                    <li> <a href="partners.html">Партнёрам</a> </li>
+                    <li> <a href="contacts.html">Контакты</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="small-head">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li> <a href="korners.html"> Корнеры</a></li>
+                    <li> <a href="index.html#games">Игры</a></li>
+                    <li> <a href="index.html#events">Мероприятия</a> </li>
+                    <li> <a href="partners.html">Партнёрам</a> </li>
+                    <li> <a href="contacts.html">Контакты</a> </li>
+                    <li>______________</li>
+                    <li>
+                        <a href="https://telegram.org/?ysclid=lh7fr00fk8170943303">
+                            <img src="sourses/icons8-телеграм-50.png" alt="telegram" width="30px" class="tg">
+                        </a>
+                        <a href="https://ru-ru.facebook.com/">
+                            <img src="sourses/icons8-facebook-30.png" alt="" class="fb">
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <img src="sourses/icons8-instagram-50.png" alt="" width="30px" class="inst">
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <img src="sourses/icons8-youtube-49.png" alt="" width="30px" class="yt">
+                        </a>
+                        <a href="https://vk.com">
+                            <img src="sourses/icons8-vk-в-круге-50.png" alt="" width="30px" class="vk">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html" class="link-main"><img src="sourses/Component 5.png" alt="" class="logo"></a>
+        </div>
+    </header>
+
+
+    <div class="slider">
+        <div class="item">
+            <div class="first-slide">
+                <div class="back_img">
+                    <div class="back_main">
+                        <div class="back food">FOOD'</div>
+                        <div class="back chill">N'CHILL</div>
+                    </div>
+                </div>
+                <div class="lines">
+                    <div class="lineL"></div>
+                    <div class="lineR"></div>
+
+                </div>
+                <div class="text_main">
+                    <p>фудмолл <span>нового поколения</span></p>
+                </div>
+            </div>
+
+            <div class="command">
+                <a class="previous" onclick="previousSlide()"><img src="sourses/left.png" alt="стрелка влево"
+                        width="40px"></a>
+                <a class="next" onclick="nextSlide()"><img src="sourses/right.png" alt="стрелка вправо"
+                        width="40px"></a>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="block">
+                <div class="left-t">
+                    <img src="sourses/logo-main-big.png" alt="">
+                </div>
+                <div class="right-t">
+                    <div class="name-time">ВРЕМЯ РАБОТЫ</div>
+                    <div class="line"></div>
+                    <div class="table-time">
+                        <ul class="time t1">
+                            <li><span id="corner-time">Корнеры:</span></li>
+                            <li>пн-пт 10:00 - 00:00</li>
+                            <li>сб-вс 10:00 - 01:00</li>
+                        </ul>
+                        <ul class="time t2">
+                            <li><span id="game-time">Игровое пространство:</span></li>
+                            <li>пн-пт 10:00 - 02:00</li>
+                            <li>сб-вс 12:00 - 04:00</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="command">
+                <a class="previous" onclick="previousSlide()"><img src="sourses/left.png" alt="стрелка влево"
+                        width="40px"></a>
+                <a class="next" onclick="nextSlide()"><img src="sourses/right.png" alt="стрелка вправо"
+                        width="40px"></a>
+            </div>
+
+        </div>
+
+        <div class="item">
+            <div class="third-page">
+                <div class="info">
+                    <div class="text">Фудкорт с игровыми зонами - это новый формат развлечения, который с каждым днем
+                        становится все более популярным. Здесь люди могут не только попробовать различные блюда из
+                        разных стран мира, но и провести время за любимыми играми.Именно таким и является наш фудмолл FOOD'N'CHILL</div>
+                    <div class="num num-metr">
+                        <p><span>1000</span>кв.м.</p>
+                    </div>
+                    <div class="num num-cor">
+
+                        <p><span>20</span>корнеров</p>
+                    </div>
+                    <div class="num num-game">
+
+                        <p><span>5</span>игровых зон</p>
+                    </div>
+                </div>
+            </div>
+            <div class="command">
+                <a class="previous" onclick="previousSlide()"><img src="sourses/left.png" alt="стрелка влево"
+                        width="40px"></a>
+                <a class="next" onclick="nextSlide()"><img src="sourses/right.png" alt="стрелка вправо"
+                        width="40px"></a>
+            </div>
+        </div>
+
+        <div class="arrow_mobile">
+            <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
+            <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+    </div>
+
+    
+    <a name="events"></a>
+    <div class="events">
+        <div class="div-name">
+            МЕРОПРИЯТИЯ
+        </div>
+        <div class="even ev1">
+            <div class="ev-name">DJ DELPHI
+                <div class="ev-time">03.05 21:00</div>
+            </div>
+            <div class="ev-text">
+                Выступление DJ DELPHI – это захватывающее шоу, которое заставляет людей танцевать и наслаждаться
+                музыкой.
+                Диджей создает неповторимую атмосферу с помощью своих миксов и композиций, включая самые новые треки и
+                любимые классики.
+            </div>
+            <div class="more">
+                <a href="https://www.reverbnation.com/djdelphi/songs">Подробнее..</a>
+            </div>
+        </div>
+        <div class="even ev2">
+            <div class="ev-name">GastroFest
+                <div class="ev-time">21.05 - 28.05</div>
+            </div>
+            <div class="ev-text">
+                Гастрофест — серия гастрономических фестивалей, которая придется по душе всем ценителям вкусной еды
+                и качественных напитков. Заведения предлагают свои
+                лучшие сеты по фиксированной цене в определенный отрезок времени. Пробуй, наслаждайся, голосуй!
+            </div>
+            <div class="more">
+                <a href="https://gastrofest.by/">Подробнее..</a>
+            </div>
+        </div>
+        <div class="even ev3">
+            <div class="ev-name">POCO
+                <div class="ev-time">10.05 19:00</div>
+            </div>
+            <div class="ev-text">
+                Киберспортивный фестиваль POCO - это не только отличная возможность поиграть в любимые игры и получить
+                заряд
+                энергии, но и открыть новые горизонты в мире киберспорта. Это мероприятие, которое нельзя пропустить.
+            </div>
+            <div class="more">
+                <a href="https://festagent.com/ru/festivals">Подробнее..</a>
+            </div>
+        </div>
+        <div class="ev ev-hidden">
+            <div class="even ev4">
+                <div class="ev-name">Night'n'Chill
+                    <div class="ev-time">20.05 21:30</div>
+                </div>
+                <div class="ev-text">
+                    Night'n'Chill - киновечер на крыше нашего здания, где ты сможешь насладиться лучшим кино, проводить
+                    закат и насладиться друг другом.
+                    Уютная
+                    атмосфера, свежий кофе и попкорн, удобные кресла – все это создает идеальную обстановку для
+                    отличного
+                    вечера в кругу друзей или вдвоем.
+                </div>
+                <div class="more">
+                    <a href="https://vk.com/movie.minsk?ysclid=lh61l8zeuy919368398">Подробнее..</a>
+                </div>
+            </div>
+            <div class="even ev5">
+                <div class="ev-name">Springtime
+                    <div class="ev-time">01.03 - 31.03</div>
+                </div>
+                <div class="ev-text">
+                    Наступила весна, и мы рады представить наше новое весеннее меню. В нем вы
+                    найдете множество свежих и вкусных блюд, приготовленных из сезонных продуктов.
+                    Корнеры представят блюда начиная от разнообразных салатов и закусок, приправленные
+                    свежими травами до блюд на гриле
+                </div>
+                <div class="more">
+                    <a href="korners.html">Подробнее..</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="more-ev"> <button class="but-more">•••</button></div>
+    </div>
+
+    <a name="games"></a>
+    <div class="game-block">
+        <div class="div-name">ИГРОВОЕ ПРОСТРАНСТВО</div>
+        <div class="step st1">
+            <div class="circle">
+                <img src="https://pbs.twimg.com/ext_tw_video_thumb/1478764978098298880/pu/img/up0Oa9o_PQBSdZUW.jpg"
+                    alt="">
+                <p> 1.</p>
+                <span>Забронируйте места по номеру <span class="bold">+375(33)11-22-333 </span>(Telegram) </span>
+            </div>
+
+        </div>
+        <div class="step st2">
+            <div class="circle">
+                <img src="https://i.pinimg.com/originals/e3/0b/b6/e30bb68c1ea181a9c3e1d2af94be58a8.jpg" alt="">
+                <p>2.</p>
+                <span class="text">За <span class="bold">15 минут</span> подтвердите, что точно будете у нас</span>
+
+            </div>
+        </div>
+        <div class="step st3">
+            <div class="circle">
+                <img src="https://pilon.ru/upload/iblock/248/pz51alzm8f2cc18v6te4qy47vr0ncev1.png" alt="">
+                <p>3.</p>
+                <span class="text">Приходите и <span class="bold">наслаждайтесь</span>!</span>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Food'n'Chill<span><img style="height: 20vh;" src="../../assets/Images/logp.png" alt=""></span></h3>
+            <p class="footer-links">
+                <a href="index.html#home" class="link-1">Главная</a>
+                <a href="korners.html">Корнеры</a>
+                <a href="index.html#games">Игры</a>
+                <a href="index.html#events">Мероприятия</a>
+                <a href="contacts.html">Контакты</a>
+            </p>
+            <p class="footer-company-name">Food'n'Chill © 2023</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <p><span>ул.Белорусская, 21</span> Минск, Беларусь</p>
+            </div>
+            <br>
+            <div>
+                <p>+375(33) 321-00-11(Администратор)</p>
+            </div>
+            <br>
+            <div>
+                <p><a href="mailto:support@company.com">support@company.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+            <p class="footer-company-about-p"> <span> Корнеры:</span> <br> пн-пт 10:00-00:00, сб-вс 10:00-01:00</p>
+            <p class="footer-company-about-p"> <span>Игровые комнаты:</span> <br> пн-пт 10:00-02:00, сб-вс 12:00-04:00
+            </p>
+            </p>
+            <div class="footer-icons">
+                <a href="https://telegram.org/?ysclid=lh7fr00fk8170943303">
+                    <img src="sourses/icons8-телеграм-50.png" alt="telegram" width="30px" class="tg">
+                </a>
+                <a href="https://ru-ru.facebook.com/">
+                    <img src="sourses/icons8-facebook-30.png" alt="" class="fb">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="sourses/icons8-instagram-50.png" alt="" width="30px" class="inst">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="sourses/icons8-youtube-49.png" alt="" width="30px" class="yt">
+                </a>
+                <a href="https://vk.com">
+                    <img src="sourses/icons8-vk-в-круге-50.png" alt="" width="30px" class="vk">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="slider.js"></script>
+</body>
+
+</html>
