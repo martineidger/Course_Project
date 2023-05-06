@@ -113,6 +113,8 @@ input:focus, textarea:focus{
 @media (max-width:590px) {
     .forms{
         margin: 5vh 6vw;
+    }
+    .input-wr{
         background-color: aliceblue;
     }
 }
