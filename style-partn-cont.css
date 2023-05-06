@@ -114,9 +114,6 @@ input:focus, textarea:focus{
     .forms{
         margin: 5vh 6vw;
     }
-    .input-wr{
-        background-color: aliceblue;
-    }
 }
 
 /* Контакты */
