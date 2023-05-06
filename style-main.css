@@ -246,11 +246,12 @@ font-weight: bold;
  .text{
     font-size: 20px;
     font-weight: bold;
+    text-align: justify;
  }
 
  @media (max-width:883px) {
     .text{
-        font-size: 18px;
+        font-size: 16px;
     }
     .num span{
         font-size: 60px;
@@ -258,6 +259,9 @@ font-weight: bold;
     .num p{
         font-size: 20px;
     }
+    .command{
+        margin-top:57vh;
+     }
  }
  /*  СЛАЙДЕР ОСНОВНЫЕ СТИЛИ  */
  .item {
