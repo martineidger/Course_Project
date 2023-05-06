@@ -259,9 +259,6 @@ font-weight: bold;
     .num p{
         font-size: 20px;
     }
-    .command{
-        margin-top:57vh;
-     }
  }
  /*  СЛАЙДЕР ОСНОВНЫЕ СТИЛИ  */
  .item {
@@ -303,7 +300,7 @@ font-weight: bold;
      justify-content: space-between;
      flex-direction: row;
      padding: 0 10vw;
-     margin-top: 67vh;
+     margin-top: 57vh;
      height: 5vh;
      width: 80vw;
  }
